@@ -21,11 +21,11 @@ public class Main {
     return sum;
   }
 
-  public int sumOfTheFirstNPrimeNumbers(int N) {
+  public int sumOfTheFirstNPrimeNumbers(int quantity) {
     int sum = 0;
     int counter = 0, i = 1;
 
-    while(counter <= N) {
+    while(counter <= quantity) {
       if(this.isPrime(i)) {
         sum += i;
         counter++;
